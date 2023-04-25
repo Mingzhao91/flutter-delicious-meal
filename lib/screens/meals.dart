@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_delicious_meals/screens/meal_details.dart';
 
+import 'package:flutter_delicious_meals/screens/meal_details.dart';
 import 'package:flutter_delicious_meals/models/meal.dart';
 import 'package:flutter_delicious_meals/widgets/meal_item.dart';
 
