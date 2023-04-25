@@ -4,12 +4,10 @@ import '../models/meal.dart';
 
 class MealDetailsScreen extends StatelessWidget {
   final Meal meal;
-  final void Function(Meal meal) onToggleFavourite;
 
   const MealDetailsScreen({
     super.key,
     required this.meal,
-    required this.onToggleFavourite,
   });
 
   @override
