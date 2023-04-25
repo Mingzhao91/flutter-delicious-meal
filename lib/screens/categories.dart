@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-import '../models/category.dart';
-import '../models/meal.dart';
-import '../data/dummy_data.dart';
-import '../screens/meals.dart';
-import '../widgets/category_grid_item.dart';
+import 'package:flutter_delicious_meals/models/category.dart';
+import 'package:flutter_delicious_meals/models/meal.dart';
+import 'package:flutter_delicious_meals/data/dummy_data.dart';
+import 'package:flutter_delicious_meals/screens/meals.dart';
+import 'package:flutter_delicious_meals/widgets/category_grid_item.dart';
 
 class CategoriesScreen extends StatelessWidget {
   final List<Meal> availableMeals;
